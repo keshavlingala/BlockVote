@@ -1,0 +1,31 @@
+@import 'apps/voting-dapp/src/styles/variables';
+
+.campaign-list-item {
+  display: flex;
+  //border: 1px solid black;
+  padding: 14px;
+  border-radius: 15px;
+  gap: 15px;
+  background: #f4a93d8c;
+  box-shadow: 4px 3px 20px 0px;
+  width: 100%;
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 280px;
+  }
+
+  .actions{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .right{
+    img{
+      width: 250px;
+    }
+  }
+}

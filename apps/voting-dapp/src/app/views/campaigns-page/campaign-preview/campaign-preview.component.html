@@ -1,0 +1,75 @@
+<div *ngIf="campaignModel" class="campaign-preview">
+  <voting-dapp-page-title-bar *ngIf="campaignModel.isActive" [title]="campaignModel.name"
+                              [actionButtonText]="language.language['add_candidate']"
+                              (actionButtonClickedEvent)="onAddCandidateClicked()"
+                              [action2ButtonText]="language.language['end_campaign']"
+                              (action2ButtonClickedEvent)="endCampaign()"
+  >
+  </voting-dapp-page-title-bar>
+  <voting-dapp-page-title-bar *ngIf="!campaignModel.isActive" [title]="campaignModel.name"
+                              [actionButtonText]="language.language['get_results']" (actionButtonClickedEvent)="getResults()">
+  </voting-dapp-page-title-bar>
+
+  <div class="campaign-preview-alert">
+    <div *ngIf="campaignModel.candidates.length && !campaignModel.userCanVote">
+      <div accessibility>Thank you for your vote</div>
+      <div accessibility>You successfully vote in this campaign.</div>
+    </div>
+  </div>
+
+  <div class="list-wrapper">
+    <div class="campaign-list">
+      <span class="campaign-preview__candidates-list__title" accessibility>{{language.language['candidates']}}</span>
+      <mat-divider></mat-divider>
+      <ng-container *ngFor="let candidate of campaignModel.candidates">
+        <div class="campaign-list-item">
+          <mat-icon class="campaign-preview__candidates-list__item__icon">
+            person_4
+          </mat-icon>
+          <div class="campaign-preview__candidates-list__item__candidate-name" accessibility>
+            {{candidate.name$ | async}}
+          </div>
+          <button mat-raised-button [disabled]="!campaignModel.isActive" color="primary"
+                  class="campaign-preview__candidates-list__item__vote-button"
+                  (click)="onVoteClicked(candidate.address)" accessibility>
+            {{language.language['vote_eth']}}
+          </button>
+        </div>
+        <mat-divider></mat-divider>
+      </ng-container>
+
+      <ng-container *ngIf="!campaignModel.candidates.length">
+        <div class="campaign-list-item">
+          <mat-icon class="campaign-preview__candidates-list__empty-item__icon">info</mat-icon>
+          <div class="campaign-preview__candidates-list__empty-item__text-container">
+            <div mat-line accessibility>Sorry there is no candidates to vote.</div>
+            <div mat-line accessibility>
+              You can <strong>Add Candidate</strong> if you want.
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+
+    <div *ngIf="results" class="results-card">
+      Results:
+      <div class="results-list">
+        <div class="results-list-item">
+          Total Votes: {{campaignModel.voteCount}}
+        </div>
+        <mat-list-item class="winner-item">
+          Winner: {{results.winnerName | async}}
+        </mat-list-item>
+        <mat-list-item *ngFor="let candidate of campaignModel.candidates">
+          {{candidate.name$ | async}}: {{results.results[candidate.address].voteCount}}
+        </mat-list-item>
+      </div>
+    </div>
+
+  </div>
+  <div class="campaign-preview__footer">
+    <button mat-raised-button [routerLink]="['/campaign/list']" accessibility>
+      {{language.language['back_to_list']}}
+    </button>
+  </div>
+</div>

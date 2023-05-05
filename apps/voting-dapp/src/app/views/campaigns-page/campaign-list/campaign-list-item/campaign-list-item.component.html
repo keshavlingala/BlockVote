@@ -1,0 +1,52 @@
+<!--<mat-card class="campaign-list-item" *ngIf="campaign">-->
+<!--  <div-->
+<!--    class="campaign-list-item__alert"-->
+<!--    [class.campaign-list-item__alert&#45;&#45;active]="campaign.isActive"-->
+<!--    [class.campaign-list-item__alert&#45;&#45;inactive]="!campaign.isActive"-->
+<!--  >-->
+<!--    {{ campaign.isActive ? 'Active' : 'Inactive' }}-->
+<!--  </div>-->
+
+<!--  <img mat-card-image src="/assets/vote-img.jpg" alt="Campaign Logo"/>-->
+
+<!--  <div class="campaign-list-item__name">-->
+<!--    {{ campaign.name$ | async }}-->
+<!--  </div>-->
+
+<!--  <mat-card-actions align="center">-->
+<!--    <button-->
+<!--      mat-flat-button-->
+<!--      color="primary"-->
+<!--      style="width: 100%"-->
+<!--      [routerLink]="['/campaign', campaign.address]"-->
+<!--    >-->
+<!--      Preview-->
+<!--    </button>-->
+<!--  </mat-card-actions>-->
+<!--</mat-card>-->
+
+<div class="campaign-list-item" *ngIf="campaign">
+  <div class="left">
+    <h1 accessibility
+        [text]="campaign.name$ | async">{{campaign.name$ | async}}</h1>
+    <p>{{language.language['address']}}: {{campaign.address}}</p>
+    <mat-chip-list>
+      <mat-chip accessibility
+                *ngIf="campaign.isActive" selected color="primary">{{language.language['active']}}</mat-chip>
+      <mat-chip accessibility
+                *ngIf="!campaign.isActive" selected color="warn">{{language.language['inactive']}}</mat-chip>
+      <mat-chip accessibility
+                *ngIf="campaign.isActive && campaign.hasCandidates" selected
+                color="accent">{{language.language['candidates']}}</mat-chip>
+    </mat-chip-list>
+    <div class="actions">
+      <button accessibility
+              mat-raised-button [routerLink]="['/campaign',campaign.address]">
+        {{language.language['view_campaign_details']}}
+      </button>
+    </div>
+  </div>
+  <div class="right">
+    <img src="/assets/vote-img.jpg" alt="Campaign Logo">
+  </div>
+</div>

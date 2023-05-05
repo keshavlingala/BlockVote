@@ -1,0 +1,40 @@
+<div class="page-title-bar">
+  <div class="left">
+    <mat-slide-toggle
+      (change)="accessibilityChange($event)"
+      accessibility>
+      {{language.language['accessibility']}}
+    </mat-slide-toggle>
+    <mat-select [value]="language.languageCode" (selectionChange)="changeLanguage($event)"
+                [placeholder]="language.language['change_language']">
+      <mat-option value="en">English</mat-option>
+      <mat-option value="fr">French</mat-option>
+      <mat-option value="es">Spanish</mat-option>
+      <mat-option value="hn">Hindi</mat-option>
+      <mat-option value="cn">Chinese</mat-option>
+    </mat-select>
+  </div>
+  <h1
+    accessibility
+    [text]="title"
+    class="page-title-bar__text">
+    {{ title }}
+  </h1>
+  <div class="page-title-bar__actions">
+    <button
+      *ngIf="!!actionButtonText"
+      mat-flat-button
+      color="primary"
+      accessibility
+      (click)="actionButtonClickedEvent.emit()">
+      {{ actionButtonText }}
+    </button>
+    <button *ngIf="!!action2ButtonText"
+            mat-flat-button
+            color="warn"
+            accessibility
+            (click)="action2ButtonClickedEvent.emit()">
+      {{ action2ButtonText }}
+    </button>
+  </div>
+</div>

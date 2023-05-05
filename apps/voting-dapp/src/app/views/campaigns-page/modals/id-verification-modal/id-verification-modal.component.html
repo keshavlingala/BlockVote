@@ -1,0 +1,22 @@
+<h2 mat-dialog-title>{{language.language['id_verification']}}</h2>
+<mat-dialog-content>
+  <div class="form-fields">
+    <mat-form-field>
+      <mat-label>{{language.language['voter_id']}} </mat-label>
+      <input matInput autocomplete="off" [formControl]="voterId"/>
+      <mat-error>{{language.language['voter_id_is_required']}}</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>{{language.language['social_security_number']}}</mat-label>
+      <input type="password" matInput autocomplete="off" [formControl]="ssn"/>
+      <mat-error>{{language.language['this_field_is_required']}}</mat-error>
+    </mat-form-field>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button
+    mat-button
+    [disabled]="formGroup.invalid" (click)="submit()">
+    {{language.language['submit']}}
+  </button>
+</mat-dialog-actions>

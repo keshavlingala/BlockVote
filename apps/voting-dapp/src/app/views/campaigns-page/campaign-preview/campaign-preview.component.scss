@@ -1,0 +1,62 @@
+.campaign-list{
+  display: flex;
+  flex-direction: column;
+  .campaign-list-item{
+    margin-bottom: 22px;
+    padding: 20px;
+    background: #ffffff91;
+    &:hover{
+      background: #ffffffc2;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.list-wrapper {
+  padding: 0px 5vw;
+
+  mat-list-item {
+    background: #ffffff91;
+    margin-bottom: 22px;
+    padding: 20px;
+
+    &:hover {
+      background: #ffffffc2;
+    }
+  }
+}
+
+.results-card {
+  background: #ffffff91;
+  margin-bottom: 22px;
+  padding: 20px;
+
+  &:hover {
+    background: #ffffffc2;
+  }
+
+  .winner-item {
+    background: #4CAF50;
+    &:hover{
+      background: #4CAF50;
+    }
+  }
+  .results-list{
+    display: flex;
+    flex-direction: column;
+    .results-list-item{
+      margin-bottom: 22px;
+      padding: 20px;
+      background: #ffffff91;
+      &:hover{
+        background: #ffffffc2;
+      }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
