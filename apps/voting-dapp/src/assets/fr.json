@@ -21,5 +21,6 @@
   "voter_id_is_required": "L'ID de l'électeur est requis",
   "this_field_is_required": "Ce champ est requis",
   "you_are_not_eligible_to_vote": "Vous n'êtes pas éligible pour voter",
-  "id_verification": "Vérification d'identité"
+  "id_verification": "Vérification d'identité",
+  "upcoming_campaigns": "Prochaines campagnes"
 }

@@ -21,5 +21,6 @@
   "voter_id_is_required": "मतदाता आईडी आवश्यक है",
   "this_field_is_required": "यह फ़ील्ड आवश्यक है",
   "you_are_not_eligible_to_vote": "आप मतदान करने के योग्य नहीं हैं",
-  "id_verification": "आईडी सत्यापन"
+  "id_verification": "आईडी सत्यापन",
+  "upcoming_campaigns": "आगामी अभियान"
 }

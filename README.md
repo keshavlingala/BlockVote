@@ -66,7 +66,7 @@ New Features
 - [x] UI Improvements
 - [x] Multiple Language Support
 - [x] Improve accessibility for visually impaired
-- [ ] Upcoming Elections Headers
+- [x] Upcoming Elections Headers
 - [ ] Detailed Manual for Voters
 - [ ] Sharing Button for Campaigns
 - [ ] Offer an easily accessible help center with FAQs
