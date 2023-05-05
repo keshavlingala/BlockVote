@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 20px 0;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  //align-items: center;
+
+  .user {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    span{
+      flex:1
+    }
+  }
+}

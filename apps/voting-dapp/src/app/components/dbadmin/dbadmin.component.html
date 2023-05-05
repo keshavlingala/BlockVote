@@ -1,0 +1,31 @@
+<div class="wrapper">
+  <div class="form">
+    <h1>Add Allowed User</h1>
+    <mat-form-field appearance="outline">
+      <mat-label>{{language.language['voter_id']}}</mat-label>
+      <input matInput [formControl]="voterId">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>{{language.language['social_security_number']}}</mat-label>
+      <input matInput [formControl]="ssn">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>{{language.language['address']}}</mat-label>
+      <input matInput [formControl]="address">
+    </mat-form-field>
+    <button (click)="submit()" mat-flat-button color="primary">Submit</button>
+  </div>
+  <div class="user-list">
+    <div class="user">
+      <span>{{language.language['voter_id']}}</span>
+      <span>{{language.language['social_security_number']}}</span>
+      <span>{{language.language['address']}}</span>
+    </div>
+    <div class="user" *ngFor="let user of allowedUsers">
+      <span>{{user.voterId}}</span>
+      <span>{{user.ssn}}</span>
+      <span>{{user.address}}</span>
+      <button mat-flat-button (click)="delete(user.voterId)" color="warn">Delete</button>
+    </div>
+  </div>
+</div>
