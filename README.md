@@ -4,6 +4,10 @@
 ## Introduction
 This is a Final project done as part of the course CPSC 559 - Advanced Blockchain Technologies
 
+[![Block-Vote](https://img.shields.io/badge/github-noissues-green.svg)](https://github.com/keshavlingala/BlockVote)
+
+Project Repository Link [here](https://github.com/keshavlingala/BlockVote)
+
 > Professor: Dr. Wenlin Han <br>
 > Department of Computer Science <br>
 > California State University, Fullerton <br>
