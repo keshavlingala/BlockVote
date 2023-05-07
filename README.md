@@ -4,7 +4,7 @@
 ## Introduction
 This is a Final project done as part of the course CPSC 559 - Advanced Blockchain Technologies
 
-[![Block-Vote](https://img.shields.io/badge/github-noissues-green.svg)](https://github.com/keshavlingala/BlockVote)
+[![Block-Vote](https://img.shields.io/badge/github-BlockVote-blue.svg)](https://github.com/keshavlingala/BlockVote)
 
 Project Repository Link [here](https://github.com/keshavlingala/BlockVote)
 
