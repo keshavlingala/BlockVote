@@ -4,10 +4,10 @@
 ## Introduction
 This is a Final project done as part of the course CPSC 559 - Advanced Blockchain Technologies
 
-> Professor: Dr. Wenlin Han
-> Department of Computer Science
-> California State University, Fullerton
-> Spring 2023
+> Professor: Dr. Wenlin Han <br>
+> Department of Computer Science <br>
+> California State University, Fullerton <br>
+> Spring 2023 <br>
 
 ## Team Members ( Team Token )
 
