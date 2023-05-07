@@ -7,19 +7,20 @@
   >
   </voting-dapp-page-title-bar>
   <voting-dapp-page-title-bar *ngIf="!campaignModel.isActive" [title]="campaignModel.name"
-                              [actionButtonText]="language.language['get_results']" (actionButtonClickedEvent)="getResults()">
+                              [actionButtonText]="language.language['get_results']"
+                              (actionButtonClickedEvent)="getResults()">
   </voting-dapp-page-title-bar>
 
   <div class="campaign-preview-alert">
     <div *ngIf="campaignModel.candidates.length && !campaignModel.userCanVote">
-      <div accessibility>Thank you for your vote</div>
-      <div accessibility>You successfully vote in this campaign.</div>
+      <div accessibility>{{language.language['thank_you_for_voting']}}</div>
+      <div accessibility>{{language.language['you_successfully_voted_in_this_campaign']}}</div>
     </div>
   </div>
 
   <div class="list-wrapper">
     <div class="campaign-list">
-      <span class="campaign-preview__candidates-list__title" accessibility>{{language.language['candidates']}}</span>
+      <span class="campaign-preview__candidates-list__title">{{language.language['candidates']}}</span>
       <mat-divider></mat-divider>
       <ng-container *ngFor="let candidate of campaignModel.candidates">
         <div class="campaign-list-item">
@@ -52,13 +53,13 @@
     </div>
 
     <div *ngIf="results" class="results-card">
-      Results:
+      {{language.language['results']}}
       <div class="results-list">
         <div class="results-list-item">
-          Total Votes: {{campaignModel.voteCount}}
+          {{language.language['total_votes']}}: {{campaignModel.voteCount}}
         </div>
         <mat-list-item class="winner-item">
-          Winner: {{results.winnerName | async}}
+          {{language.language['winner']}}: {{results.winnerName | async}}
         </mat-list-item>
         <mat-list-item *ngFor="let candidate of campaignModel.candidates">
           {{candidate.name$ | async}}: {{results.results[candidate.address].voteCount}}
@@ -70,6 +71,9 @@
   <div class="campaign-preview__footer">
     <button mat-raised-button [routerLink]="['/campaign/list']" accessibility>
       {{language.language['back_to_list']}}
+    </button>
+    <button accessibility mat-raised-button color="accent" (click)="shareClicked()">
+      {{language.language['share_campaign']}}
     </button>
   </div>
 </div>

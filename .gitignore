@@ -39,6 +39,6 @@ testem.log
 Thumbs.db
 
 # Truffle Files
-/build/contracts
+/build_old/contracts
 package-lock.json
 

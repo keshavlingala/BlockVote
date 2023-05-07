@@ -1,19 +1,22 @@
 <div class="page-title-bar">
   <div class="left">
     <mat-slide-toggle
+      [checked]="getAccessibility()"
       (change)="accessibilityChange($event)"
       accessibility>
-      {{language.language['accessibility']}}
+      {{language.language['accessibility'] || 'Accessibility'}}
     </mat-slide-toggle>
-    <mat-select [value]="language.languageCode" (selectionChange)="changeLanguage($event)"
+  </div>
+  <div style="width: 100px;">
+    <mat-select accessibility [text]="language.language['change_language']" [value]="language.languageCode" (selectionChange)="changeLanguage($event)"
                 [placeholder]="language.language['change_language']">
-      <mat-option value="en">English</mat-option>
-      <mat-option value="fr">French</mat-option>
-      <mat-option value="es">Spanish</mat-option>
-      <mat-option value="hn">Hindi</mat-option>
-      <mat-option value="cn">Chinese</mat-option>
+      <mat-option value="en" accessibility>English</mat-option>
+      <mat-option value="fr" accessibility>French</mat-option>
+      <mat-option value="es" accessibility>Spanish</mat-option>
+      <mat-option value="zh" accessibility>Chinese</mat-option>
     </mat-select>
   </div>
+  <button mat-stroked-button routerLink="/manual">{{language.language['help']}}</button>
   <h1
     accessibility
     [text]="title"

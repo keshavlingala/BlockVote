@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
-import { CampaignListItem, CampaignListService } from './campaign-list.service';
-import { filter, mergeMap } from 'rxjs/operators';
-import { CreateCampaignModalComponent } from '../modals';
-import { MatSnackBar } from '@angular/material/snack-bar';
+import {Component, OnInit} from '@angular/core';
+import {MatDialog} from '@angular/material/dialog';
+import {CampaignListItem, CampaignListService} from './campaign-list.service';
+import {filter, mergeMap} from 'rxjs/operators';
+import {CreateCampaignModalComponent} from '../modals';
+import {MatSnackBar} from '@angular/material/snack-bar';
 import {LanguageService} from "../../../language.service";
 
 @Component({
@@ -13,13 +13,15 @@ import {LanguageService} from "../../../language.service";
 })
 export class CampaignListComponent implements OnInit {
   campaignListItems: CampaignListItem[] = [];
+  currentFilter = '';
 
   constructor(
     private readonly campaignListService: CampaignListService,
     private readonly snackBar: MatSnackBar,
     private readonly dialog: MatDialog,
     public readonly language: LanguageService
-  ) {}
+  ) {
+  }
 
   ngOnInit(): void {
     this.campaignListService.getCampaignsList$().subscribe((campaigns) => {
@@ -35,7 +37,7 @@ export class CampaignListComponent implements OnInit {
 
   onCreateCampaignClicked(): void {
     this.dialog
-      .open(CreateCampaignModalComponent, { width: '250px' })
+      .open(CreateCampaignModalComponent, {width: '250px'})
       .afterClosed()
       .pipe(
         filter((campaignName: string) => !!campaignName),
@@ -46,5 +48,31 @@ export class CampaignListComponent implements OnInit {
       .subscribe(() => {
         this.snackBar.open('Campaign successfully created.', 'Ok');
       });
+  }
+
+  applyFilter(filter: string) {
+    if(this.currentFilter === filter) {
+      this.currentFilter = '';
+      return;
+    }
+    this.currentFilter = filter;
+  }
+
+  get getFilteredItems() {
+    if (this.currentFilter === '') {
+      return this.campaignListItems;
+    }
+    if (this.currentFilter === 'active') {
+      return this.campaignListItems.filter(item => item.isActive);
+    }
+    if (this.currentFilter === 'inactive') {
+      return this.campaignListItems.filter(item => !item.isActive);
+    }
+    if (this.currentFilter == 'candidates') {
+      return this.campaignListItems.filter(item => item.hasCandidates);
+    }
+    if (this.currentFilter == 'no-candidates') {
+      return this.campaignListItems.filter(item => !item.hasCandidates);
+    }
   }
 }

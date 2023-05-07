@@ -22,5 +22,74 @@
   "this_field_is_required": "This field is required",
   "you_are_not_eligible_to_vote": "You are not Eligible to Vote",
   "id_verification": "ID Verification",
-  "upcoming_campaigns": "Up Coming Campaigns"
+  "upcoming_campaigns": "Up Coming Campaigns",
+  "thank_you_for_voting": "Thank you for voting",
+  "you_successfully_voted_in_this_campaign": "You successfully voted in this campaign",
+  "results": "Results",
+  "winner": "Winner",
+  "total_votes": "Total Votes",
+  "share_campaign": "Share Campaign",
+  "copy": "Copy",
+  "share_text": "Hey, Have you voted in this campaign already? If not, you can vote now! Here's a link for you to vote:",
+  "copied_to_clipboard": "Copied to Clipboard",
+  "campaign_name": "Campaign Name",
+  "cancel": "Cancel",
+  "create": "Create",
+  "there_are_no_candidates_right_now_you_can_add_one": "There are no candidates right now. You can add one",
+  "check_eligibility": "Check your eligibility",
+  "before_vote": "Before you can vote, you need to ensure you are eligible to vote in the election. This means that you must be a citizen of the country where the election is taking place, meet the minimum age requirement, and be registered to vote. Check with your local election commission or visit their website to verify your eligibility and register to vote if necessary.",
+  "find_polling_place": "Find your polling place",
+  "polling_place_info": "On election day, you must go to your designated polling place to vote. This location may differ from your usual polling place, so check with your local election commission or visit their website to find out where you need to vote.",
+  "manual": [
+    {
+      "step": "Check your eligibility",
+      "description": "Before you can vote, you need to ensure you are eligible to vote in the election. This means that you must be a citizen of the country where the election is taking place, meet the minimum age requirement, and be registered to vote. Check with your local election commission or visit their website to verify your eligibility and register to vote if necessary."
+    },
+    {
+      "step": "Find your polling place",
+      "description": "On election day, you must go to your designated polling place to vote. This location may differ from your usual polling place, so check with your local election commission or visit their website to find out where you need to vote."
+    },
+    {
+      "step": "Bring identification",
+      "description": "Depending on the jurisdiction, you may be required to present a valid form of identification before you can vote. Check with your local election commission or visit their website to find out what forms of identification are acceptable."
+    },
+    {
+      "step": "Check in with the election officials",
+      "description": "When you arrive at the polling place, you will need to check in with the election officials. They will ask for your name and may ask to see your identification. They will then give you a ballot or direct you to a voting machine."
+    },
+    {
+      "step": "Cast your vote",
+      "description": "Take your ballot or use the voting machine to cast your vote. Depending on the type of election, you may be asked to mark your choices on a paper ballot or use a touchscreen to make your selections."
+    },
+    {
+      "step": "Verify your vote",
+      "description": "Before submitting your ballot, carefully review your choices to ensure that you have marked the correct candidates or measures. Review your selections before pressing the 'cast ballot' button using a voting machine."
+    },
+    {
+      "step": "Submit your ballot",
+      "description": "Once you are sure that you have marked your choices correctly, submit your ballot to the election officials. If you are using a paper ballot, place it in the designated ballot box. If you use a voting machine, follow the instructions to submit your vote."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are the eligibility criteria for voting?",
+      "answer": "They should be the country’s citizens and above the age 18."
+    },
+    {
+      "question": "What is delegation?",
+      "answer": "Delegation is the act of assigning or entrusting a task or responsibility to another person or group"
+    },
+    {
+      "question": "Is identification required to register to vote?",
+      "answer": "A photo ID or document indicating the voter's name and residence address must be presented."
+    },
+    {
+      "question": "Where do I go to vote? How do I find my voting site?",
+      "answer": "If you still need to get your county Voter Information Guide, which lists your voting site, call or visit your county election office website, many of which provide lookup tools that allow voters to find voting locations. Visit the Secretary of State's website to find polling places and voting centers."
+    },
+    {
+      "question": "What time do polling places and voting centers open and close?",
+      "answer": "Polls open at 7 a.m. and close at 8 p.m. on Election Day.  In addition, vote centers in counties that have adopted the Voter's Choice Act are open an additional 4-10 days before Election Day."
+    }
+  ]
 }

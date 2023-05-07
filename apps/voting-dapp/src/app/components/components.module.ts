@@ -9,13 +9,14 @@ import {HttpClientModule} from "@angular/common/http";
 import {DbadminComponent} from "./dbadmin/dbadmin.component";
 import {ReactiveFormsModule} from "@angular/forms";
 import {MatInputModule} from "@angular/material/input";
+import {RouterModule} from "@angular/router";
 
 @NgModule({
   declarations: [PageTitleBarComponent, SpeakOnHoverDirective, DbadminComponent],
-  imports: [CommonModule,
-    HttpClientModule,
-    MatButtonModule,
-    MatSlideToggleModule, MatSelectModule, ReactiveFormsModule, MatInputModule],
+    imports: [CommonModule,
+        HttpClientModule,
+        MatButtonModule,
+        MatSlideToggleModule, MatSelectModule, ReactiveFormsModule, MatInputModule, RouterModule],
   exports: [PageTitleBarComponent, SpeakOnHoverDirective],
 })
 export class ComponentsModule {

@@ -1,0 +1,11 @@
+<h2 mat-dialog-title accessibility>{{language.language['share_campaign']}}</h2>
+<mat-dialog-content>
+ <textarea accessibility disabled [value]="shareText" style="width: 352px;
+    height: 179px;
+    font-size: 1rem;
+    line-height: 1.5rem;">
+ </textarea>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button accessibility (click)="copyShare()">{{language.language['copy']}}</button>
+</mat-dialog-actions>

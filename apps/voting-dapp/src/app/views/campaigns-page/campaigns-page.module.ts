@@ -20,7 +20,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {ComponentsModule} from '../../components/components.module';
 import {MatChipsModule} from "@angular/material/chips";
 import {IdVerificationModalComponent} from "./modals/id-verification-modal/id-verification-modal.component";
-import {DatabaseService} from "../../database.service";
+import {ShareCampaignModalComponent} from "./modals/share-campaign-modal/share-campaign-modal.component";
 
 const routes: Routes = [
   {
@@ -45,7 +45,8 @@ const routes: Routes = [
     AddCandidateModalComponent,
     CreateCampaignModalComponent,
     CampaignListItemComponent,
-    IdVerificationModalComponent
+    IdVerificationModalComponent,
+    ShareCampaignModalComponent
   ],
   imports: [
     CommonModule,

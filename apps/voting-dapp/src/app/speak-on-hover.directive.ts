@@ -16,9 +16,16 @@ export class SpeakOnHoverDirective {
     if ((window as any).accessibilityMode) {
       const message = new SpeechSynthesisUtterance(this.text ? this.text : this.elementRef.nativeElement.innerText);
       message.voice = speechSynthesis.getVoices().find(voice => voice.name === 'Google US English');
-      message.rate = 0.8;
       this.speechSynthesis.speak(message);
     }
   }
+
+  @HostListener('mouseleave')
+  async onMouseLeave() {
+    if ((window as any).accessibilityMode) {
+      this.speechSynthesis.cancel();
+    }
+  }
+
 
 }

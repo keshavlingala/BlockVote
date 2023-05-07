@@ -1,18 +1,20 @@
-<h2 mat-dialog-title>Create Campaign</h2>
+<h2 mat-dialog-title>{{language.language['create_campaign']}}</h2>
 <mat-dialog-content>
   <mat-form-field>
-    <mat-label>Campaign Name</mat-label>
+    <mat-label>{{language.language['campaign_name']}}</mat-label>
     <input matInput autocomplete="off" [formControl]="campaignName" />
-    <mat-error>Campaign name is required.</mat-error>
+    <mat-error>{{language.language['this_field_is_required']}}</mat-error>
   </mat-form-field>
 </mat-dialog-content>
 <mat-dialog-actions>
-  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button mat-dialog-close>
+    {{language.language['cancel']}}
+  </button>
   <button
     mat-button
     [disabled]="campaignName.invalid"
     [mat-dialog-close]="campaignName.value"
   >
-    Create
+    {{language.language['create']}}
   </button>
 </mat-dialog-actions>

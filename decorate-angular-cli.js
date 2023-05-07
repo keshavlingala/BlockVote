@@ -11,7 +11,7 @@
  * The Nx CLI decorates the Angular CLI, so the Nx CLI is fully compatible with it.
  * Every command you run should work the same when using the Nx CLI, except faster.
  *
- * Because of symlinking you can still type `ng build/test/lint` in the terminal. The ng command, in this case,
+ * Because of symlinking you can still type `ng build_old/test/lint` in the terminal. The ng command, in this case,
  * will point to nx, which will perform optimizations before invoking ng. So the Angular CLI is always invoked.
  * The Nx CLI simply does some optimizations before invoking the Angular CLI.
  *
@@ -36,7 +36,7 @@ try {
 }
 
 /**
- * Symlink of ng to nx, so you can keep using `ng build/test/lint` and still
+ * Symlink of ng to nx, so you can keep using `ng build_old/test/lint` and still
  * invoke the Nx CLI and get the benefits of computation caching.
  */
 function symlinkNgCLItoNxCLI() {

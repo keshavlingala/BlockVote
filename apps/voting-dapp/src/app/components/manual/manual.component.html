@@ -1,0 +1,33 @@
+<voting-dapp-page-title-bar
+  [title]="language.language['help']"
+  [actionButtonText]="language.language['back_to_list']"
+  (actionButtonClickedEvent)="goBack()">
+</voting-dapp-page-title-bar>
+
+<div>
+  <h2 accessibility>{{language.language['instructions_to_vote']}}</h2>
+  <mat-accordion>
+    <mat-expansion-panel *ngFor="let manual of language.language['manual']">
+      <mat-expansion-panel-header>
+        <mat-panel-title accessibility>
+          {{manual.step}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p accessibility>{{manual.description}}</p>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+
+<div>
+  <h2>Frequently Asked Questions</h2>
+  <mat-accordion>
+    <mat-expansion-panel *ngFor="let faq of language.language['faq']">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{faq.question}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p>{{faq.answer}}</p>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

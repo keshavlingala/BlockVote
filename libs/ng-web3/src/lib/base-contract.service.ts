@@ -29,7 +29,7 @@ export class BaseContractService {
    *     const contract = new CampaignFactoryContractBuilder()
    *       .withAddress(environment.campaignFactory.address)
    *       .withOptions(environment.campaignFactory.options)
-   *       .build();
+   *       .build_old();
    *     super(contract);
    *   }
    *
@@ -72,7 +72,7 @@ export class BaseContractService {
    *     const contract = new CampaignFactoryContractBuilder()
    *       .withAddress(environment.campaignFactory.address)
    *       .withOptions(environment.campaignFactory.options)
-   *       .build();
+   *       .build_old();
    *     super(contract);
    *   }
    *

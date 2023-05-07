@@ -1,0 +1,390 @@
+{
+  "en": {
+    "accessibility": "Accessibility",
+    "change_language": "Change Language",
+    "campaigns": "Campaigns",
+    "create_campaign": "Create Campaign",
+    "active": "Active",
+    "inactive": "Inactive",
+    "view_campaign_details": "View Campaign Details",
+    "candidates": "Candidates",
+    "address": "Address",
+    "add_candidate": "Add Candidate",
+    "end_campaign": "End Campaign",
+    "vote_eth": "Vote (1 ETH)",
+    "back_to_list": "Back to List",
+    "connect_eth_wallet": "Connect app with your Ethereum wallet account.",
+    "connect": "Connect",
+    "get_results": "Get Results",
+    "submit": "Submit",
+    "social_security_number": "Social Security Number",
+    "voter_id": "Voter ID",
+    "voter_id_is_required": "Voter ID is required",
+    "this_field_is_required": "This field is required",
+    "you_are_not_eligible_to_vote": "You are not Eligible to Vote",
+    "id_verification": "ID Verification",
+    "upcoming_campaigns": "Up Coming Campaigns",
+    "thank_you_for_voting": "Thank you for voting",
+    "you_successfully_voted_in_this_campaign": "You successfully voted in this campaign",
+    "results": "Results",
+    "winner": "Winner",
+    "total_votes": "Total Votes",
+    "share_campaign": "Share Campaign",
+    "copy": "Copy",
+    "share_text": "Hey, Have you voted in this campaign already? If not, you can vote now! Here's a link for you to vote:",
+    "copied_to_clipboard": "Copied to Clipboard",
+    "campaign_name": "Campaign Name",
+    "cancel": "Cancel",
+    "create": "Create",
+    "there_are_no_candidates_right_now_you_can_add_one": "There are no candidates right now. You can add one",
+    "check_eligibility": "Check your eligibility",
+    "before_vote": "Before you can vote, you need to ensure you are eligible to vote in the election. This means that you must be a citizen of the country where the election is taking place, meet the minimum age requirement, and be registered to vote. Check with your local election commission or visit their website to verify your eligibility and register to vote if necessary.",
+    "find_polling_place": "Find your polling place",
+    "polling_place_info": "On election day, you must go to your designated polling place to vote. This location may differ from your usual polling place, so check with your local election commission or visit their website to find out where you need to vote.",
+    "manual": [
+      {
+        "step": "Check your eligibility",
+        "description": "Before you can vote, you need to ensure you are eligible to vote in the election. This means that you must be a citizen of the country where the election is taking place, meet the minimum age requirement, and be registered to vote. Check with your local election commission or visit their website to verify your eligibility and register to vote if necessary."
+      },
+      {
+        "step": "Find your polling place",
+        "description": "On election day, you must go to your designated polling place to vote. This location may differ from your usual polling place, so check with your local election commission or visit their website to find out where you need to vote."
+      },
+      {
+        "step": "Bring identification",
+        "description": "Depending on the jurisdiction, you may be required to present a valid form of identification before you can vote. Check with your local election commission or visit their website to find out what forms of identification are acceptable."
+      },
+      {
+        "step": "Check in with the election officials",
+        "description": "When you arrive at the polling place, you will need to check in with the election officials. They will ask for your name and may ask to see your identification. They will then give you a ballot or direct you to a voting machine."
+      },
+      {
+        "step": "Cast your vote",
+        "description": "Take your ballot or use the voting machine to cast your vote. Depending on the type of election, you may be asked to mark your choices on a paper ballot or use a touchscreen to make your selections."
+      },
+      {
+        "step": "Verify your vote",
+        "description": "Before submitting your ballot, carefully review your choices to ensure that you have marked the correct candidates or measures. Review your selections before pressing the 'cast ballot' button using a voting machine."
+      },
+      {
+        "step": "Submit your ballot",
+        "description": "Once you are sure that you have marked your choices correctly, submit your ballot to the election officials. If you are using a paper ballot, place it in the designated ballot box. If you use a voting machine, follow the instructions to submit your vote."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are the eligibility criteria for voting?",
+        "answer": "They should be the country’s citizens and above the age 18."
+      },
+      {
+        "question": "What is delegation?",
+        "answer": "Delegation is the act of assigning or entrusting a task or responsibility to another person or group"
+      },
+      {
+        "question": "Is identification required to register to vote?",
+        "answer": "A photo ID or document indicating the voter's name and residence address must be presented."
+      },
+      {
+        "question": "Where do I go to vote? How do I find my voting site?",
+        "answer": "If you still need to get your county Voter Information Guide, which lists your voting site, call or visit your county election office website, many of which provide lookup tools that allow voters to find voting locations. Visit the Secretary of State's website to find polling places and voting centers."
+      },
+      {
+        "question": "What time do polling places and voting centers open and close?",
+        "answer": "Polls open at 7 a.m. and close at 8 p.m. on Election Day.  In addition, vote centers in counties that have adopted the Voter's Choice Act are open an additional 4-10 days before Election Day."
+      }
+    ],
+    "help": "Help",
+    "instructions_to_vote": "Instructions to Vote"
+  },
+  "es": {
+    "accessibility": "Accesibilidad",
+    "change_language": "Cambiar idioma",
+    "campaigns": "Campañas",
+    "create_campaign": "Crear campaña",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "view_campaign_details": "Ver detalles de la campaña",
+    "candidates": "Candidatos",
+    "address": "Dirección",
+    "add_candidate": "Agregar candidato",
+    "end_campaign": "Terminar campaña",
+    "vote_eth": "Votar (1 ETH)",
+    "back_to_list": "Volver a la lista",
+    "connect_eth_wallet": "Conectar la aplicación con tu cuenta de billetera Ethereum.",
+    "connect": "Conectar",
+    "get_results": "Obtener resultados",
+    "submit": "Enviar",
+    "social_security_number": "Número de Seguridad Social",
+    "voter_id": "Identificación del votante:",
+    "voter_id_is_required": "Se requiere identificación del votante",
+    "this_field_is_required": "Este campo es requerido",
+    "you_are_not_eligible_to_vote": "No eres elegible para votar",
+    "id_verification": "Verificación de identidad",
+    "upcoming_campaigns": "Próximas campañas",
+    "thank_you_for_voting": "Gracias por votar",
+    "you_successfully_voted_in_this_campaign": "Has votado con éxito en esta campaña",
+    "results": "Resultados",
+    "winner": "Ganador",
+    "total_votes": "Total de votos",
+    "share_campaign": "Compartir campaña",
+    "copy": "Copiar",
+    "share_text": "¡Hola! ¿Ya has votado en esta campaña? Si no es así, ¡puedes votar ahora! Aquí tienes un enlace para votar.",
+    "copied_to_clipboard": "Copiado al portapapeles",
+    "campaign_name": "Nombre de la campaña",
+    "cancel": "Cancelar",
+    "create": "Crear",
+    "there_are_no_candidates_right_now_you_can_add_one": "No hay candidatos en este momento. Puedes agregar uno.",
+    "check_eligibility": "Verifique su elegibilidad",
+    "before_vote": "Antes de poder votar, debe asegurarse de que es elegible para votar en las elecciones. Esto significa que debe ser ciudadano del país donde se están llevando a cabo las elecciones, cumplir con el requisito de edad mínima y estar registrado para votar. Verifique con su comisión electoral local o visite su sitio web para verificar su elegibilidad y registrarse para votar si es necesario.",
+    "find_polling_place": "Encuentra tu lugar de votación",
+    "polling_place_info": "El día de las elecciones, debes ir a tu lugar de votación designado para votar. Este lugar puede ser diferente a tu lugar de votación habitual, por lo que debes verificar con tu comisión electoral local o visitar su sitio web para saber dónde debes votar.",
+    "manual": [
+      {
+        "step": "Verifica si eres elegible",
+        "description": "Antes de poder votar, debes asegurarte de que eres elegible para votar en las elecciones. Esto significa que debes ser ciudadano del país donde se llevan a cabo las elecciones, cumplir con los requisitos mínimos de edad y estar registrado para votar. Consulta con la comisión electoral local o visita su sitio web para verificar tu elegibilidad y registrarte para votar si es necesario."
+      },
+      {
+        "step": "Encuentra tu lugar de votación",
+        "description": "El día de las elecciones, debes ir a tu lugar de votación designado para votar. Esta ubicación puede ser diferente de tu lugar de votación habitual, por lo que consulta con la comisión electoral local o visita su sitio web para saber dónde debes votar."
+      },
+      {
+        "step": "Lleva tu identificación",
+        "description": "Dependiendo de la jurisdicción, es posible que se te requiera presentar una forma válida de identificación antes de poder votar. Consulta con la comisión electoral local o visita su sitio web para saber qué formas de identificación son aceptables."
+      },
+      {
+        "step": "Regístrate con los funcionarios electorales",
+        "description": "Cuando llegues al lugar de votación, deberás registrarte con los funcionarios electorales. Te pedirán tu nombre y pueden pedirte que muestres tu identificación. Luego te darán una boleta o te dirigirán a una máquina de votación."
+      },
+      {
+        "step": "Emite tu voto",
+        "description": "Toma tu boleta o usa la máquina de votación para emitir tu voto. Dependiendo del tipo de elección, se te puede pedir que marques tus opciones en una boleta de papel o uses una pantalla táctil para hacer tus selecciones."
+      },
+      {
+        "step": "Verifica tu voto",
+        "description": "Antes de enviar tu boleta, revisa cuidadosamente tus elecciones para asegurarte de que has marcado a los candidatos o medidas correctas. Revisa tus selecciones antes de presionar el botón 'emitir voto' usando una máquina de votación."
+      },
+      {
+        "step": "Envía tu boleta",
+        "description": "Una vez que estés seguro de que has marcado tus elecciones correctamente, entrega tu boleta a los funcionarios electorales. Si estás usando una boleta de papel, colócala en la caja de boletas designada. Si usas una máquina de votación, sigue las instrucciones para emitir tu voto."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Cuáles son los criterios de elegibilidad para votar?",
+        "answer": "Deben ser ciudadanos del país y mayores de 18 años."
+      },
+      {
+        "question": "¿Qué es la delegación?",
+        "answer": "La delegación es el acto de asignar o confiar una tarea o responsabilidad a otra persona o grupo."
+      },
+      {
+        "question": "¿Se requiere identificación para registrarse para votar?",
+        "answer": "Debe presentarse una identificación con foto o un documento que indique el nombre y la dirección de residencia del votante."
+      },
+      {
+        "question": "¿A dónde voy para votar? ¿Cómo encuentro mi sitio de votación?",
+        "answer": "Si aún necesitas obtener tu Guía de Información del Votante del condado, que lista tu sitio de votación, llama o visita el sitio web de la oficina electoral de tu condado, muchos de los cuales ofrecen herramientas de búsqueda que permiten a los votantes encontrar lugares de votación. Visita el sitio web del Secretario de Estado para encontrar lugares de votación y centros de votación."
+      },
+      {
+        "question": "¿A qué hora abren y cierran los lugares de votación y los centros de votación?",
+        "answer": "Los colegios electorales abren a las 7 a.m. y cierran a las 8 p.m. el día de las elecciones. Además, los centros de votación en los condados que han adoptado la Ley de Elección del Votante están abiertos de 4 a 10 días adicionales antes del día de las elecciones."
+      }
+    ],
+    "help": "Ayuda",
+    "instructions_to_vote": "Instrucciones para votar"
+  },
+  "fr": {
+    "accessibility": "Accessibilité",
+    "change_language": "Changer de langue",
+    "campaigns": "Campagnes",
+    "create_campaign": "Créer une campagne",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "view_campaign_details": "Voir les détails de la campagne",
+    "candidates": "Candidats",
+    "address": "Adresse",
+    "add_candidate": "Ajouter un candidat",
+    "end_campaign": "Terminer la campagne",
+    "vote_eth": "Voter (1 ETH)",
+    "back_to_list": "Retour à la liste",
+    "connect_eth_wallet": "Connectez l'application à votre compte de portefeuille Ethereum.",
+    "connect": "Connecter",
+    "get_results": "Obtenir les résultats",
+    "submit": "Soumettre",
+    "social_security_number": "Numéro de sécurité sociale",
+    "voter_id": "ID de l'électeur:",
+    "voter_id_is_required": "L'ID de l'électeur est requis",
+    "this_field_is_required": "Ce champ est requis",
+    "you_are_not_eligible_to_vote": "Vous n'êtes pas éligible pour voter",
+    "id_verification": "Vérification d'identité",
+    "upcoming_campaigns": "Prochaines campagnes",
+    "thank_you_for_voting": "Merci d'avoir voté",
+    "you_successfully_voted_in_this_campaign": "Vous avez voté avec succès dans cette campagne",
+    "results": "Résultats",
+    "winner": "Gagnant",
+    "total_votes": "Total des votes",
+    "share_campaign": "Partager la campagne",
+    "copy": "Copier",
+    "share_text": "Hé, avez-vous déjà voté dans cette campagne ? Si ce n'est pas le cas, vous pouvez voter maintenant ! Voici un lien pour voter.",
+    "copied_to_clipboard": "Copié dans le presse-papiers",
+    "campaign_name": "Nom de la campagne",
+    "cancel": "Annuler",
+    "create": "Créer",
+    "there_are_no_candidates_right_now_you_can_add_one": "Il n'y a pas de candidats pour le moment. Vous pouvez en ajouter un.",
+    "check_eligibility": "Vérifiez votre éligibilité",
+    "before_vote": "Avant de pouvoir voter, vous devez vous assurer que vous êtes éligible pour voter lors des élections. Cela signifie que vous devez être citoyen du pays où ont lieu les élections, remplir les conditions d'âge minimum et être inscrit pour voter. Vérifiez auprès de votre commission électorale locale ou visitez leur site Web pour vérifier votre éligibilité et vous inscrire pour voter si nécessaire.",
+    "find_polling_place": "Trouvez votre lieu de vote",
+    "polling_place_info": "Le jour des élections, vous devez vous rendre à votre lieu de vote désigné pour voter. Cet endroit peut différer de votre lieu de vote habituel, alors vérifiez auprès de votre commission électorale locale ou visitez leur site Web pour savoir où vous devez voter.",
+    "manual": [
+      {
+        "step": "Vérifiez votre éligibilité",
+        "description": "Avant de pouvoir voter, vous devez vous assurer que vous êtes éligible pour voter aux élections. Cela signifie que vous devez être citoyen du pays où se déroulent les élections, répondre aux exigences d'âge minimum et être inscrit sur les listes électorales. Vérifiez auprès de votre commission électorale locale ou visitez leur site Web pour vérifier votre éligibilité et vous inscrire si nécessaire."
+      },
+      {
+        "step": "Trouvez votre bureau de vote",
+        "description": "Le jour des élections, vous devez vous rendre à votre bureau de vote désigné pour voter. Cet endroit peut différer de votre bureau de vote habituel, alors vérifiez auprès de votre commission électorale locale ou visitez leur site Web pour savoir où vous devez voter."
+      },
+      {
+        "step": "Apportez une pièce d'identité",
+        "description": "Selon la juridiction, vous pouvez être tenu de présenter une pièce d'identité valide avant de pouvoir voter. Vérifiez auprès de votre commission électorale locale ou visitez leur site Web pour savoir quelles pièces d'identité sont acceptables."
+      },
+      {
+        "step": "Enregistrez-vous auprès des responsables des élections",
+        "description": "Lorsque vous arrivez au bureau de vote, vous devrez vous enregistrer auprès des responsables des élections. Ils vous demanderont votre nom et pourront vous demander de présenter une pièce d'identité. Ils vous donneront ensuite un bulletin de vote ou vous dirigeront vers une machine à voter."
+      },
+      {
+        "step": "Votez",
+        "description": "Prenez votre bulletin de vote ou utilisez la machine à voter pour voter. Selon le type d'élection, il se peut que l'on vous demande de marquer vos choix sur un bulletin de vote en papier ou d'utiliser un écran tactile pour faire vos sélections."
+      },
+      {
+        "step": "Vérifiez votre vote",
+        "description": "Avant de soumettre votre bulletin de vote, examinez attentivement vos choix pour vous assurer que vous avez marqué les bons candidats ou mesures. Revoyez vos sélections avant d'appuyer sur le bouton 'voter' en utilisant une machine à voter."
+      },
+      {
+        "step": "Soumettez votre bulletin de vote",
+        "description": "Une fois que vous êtes sûr d'avoir marqué vos choix correctement, soumettez votre bulletin de vote aux responsables des élections. Si vous utilisez un bulletin de vote en papier, placez-le dans la boîte de scrutin désignée. Si vous utilisez une machine à voter, suivez les instructions pour soumettre votre vote."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Quels sont les critères d'éligibilité pour voter?",
+        "answer": "Ils doivent être citoyens du pays et avoir plus de 18 ans."
+      },
+      {
+        "question": "Qu'est-ce que la délégation?",
+        "answer": "La délégation est l'acte d'assigner ou de confier une tâche ou une responsabilité à une autre personne ou groupe."
+      },
+      {
+        "question": "Une pièce d'identité est-elle requise pour s'inscrire pour voter?",
+        "answer": "Une pièce d'identité avec photo ou un document indiquant le nom et l'adresse de résidence de l'électeur doit être présenté."
+      },
+      {
+        "question": "Où dois-je aller pour voter? Comment trouver mon site de vote?",
+        "answer": "Si vous avez encore besoin du guide d'information de l'électeur de votre comté, qui indique votre site de vote, appelez ou visitez le site Web de votre bureau des élections de comté, dont beaucoup fournissent des outils de recherche permettant aux électeurs de trouver des lieux de vote. Visitez le site Web du secrétaire d'État pour trouver des bureaux de vote et des centres de vote."
+      },
+      {
+        "question": "À quelle heure les bureaux de vote et les centres de vote ouvrent-ils et ferment-ils?",
+        "answer": "Les bureaux de vote ouvrent à 7 heures du matin et ferment à 20 heures le jour des élections. De plus, les centres de vote dans les comtés qui ont adopté la loi sur le choix des électeurs sont ouverts 4 à 10 jours supplémentaires avant le jour des élections."
+      }
+    ],
+    "help": "Aide",
+    "instructions_to_vote": "Instructions pour voter"
+  },
+  "zh": {
+    "accessibility": "无障碍",
+    "change_language": "更改语言",
+    "campaigns": "竞选活动",
+    "create_campaign": "创建竞选活动",
+    "active": "活跃的",
+    "inactive": "不活跃的",
+    "view_campaign_details": "查看竞选活动细节",
+    "candidates": "候选人",
+    "address": "地址",
+    "add_candidate": "添加候选人",
+    "end_campaign": "结束竞选活动",
+    "vote_eth": "投票（1 ETH）",
+    "back_to_list": "返回列表",
+    "connect_eth_wallet": "将应用程序与您的以太坊钱包账户连接。",
+    "connect": "连接",
+    "get_results": "获取结果",
+    "submit": "提交",
+    "social_security_number": "社会安全号码",
+    "voter_id": "选民ID：",
+    "voter_id_is_required": "选民ID是必需的",
+    "this_field_is_required": "此字段是必需的",
+    "you_are_not_eligible_to_vote": "您无权投票",
+    "id_verification": "身份验证",
+    "upcoming_campaigns": "即将到来的竞选活动",
+    "thank_you_for_voting": "感谢您的投票",
+    "you_successfully_voted_in_this_campaign": "您已成功投票",
+    "results": "结果",
+    "winner": "赢家",
+    "total_votes": "总票数",
+    "share_campaign": "分享竞选活动",
+    "copy": "复制",
+    "share_text": "嘿，你已经在这次竞选中投票了吗？如果没有，你现在可以投票！这是一个投票链接。",
+    "copied_to_clipboard": "已复制到剪贴板",
+    "campaign_name": "竞选活动名称",
+    "cancel": "取消",
+    "create": "创建",
+    "there_are_no_candidates_right_now_you_can_add_one": "现在没有候选人，您可以添加一个",
+    "check_eligibility": "检查您的资格",
+    "before_vote": "在您投票之前，您需要确保自己有资格参加选举。这意味着您必须是选举所在国家的公民，符合最低年龄要求，并注册投票。与您的当地选举委员会联系或访问其网站，以验证您的资格并在必要时注册投票。",
+    "find_polling_place": "查找投票地点",
+    "polling_place_info": "在选举日，您必须前往指定的投票地点投票。该地点可能与您通常的投票地点不同，因此请与您当地的选举委员会联系或访问其网站以查找您需要投票的位置。",
+    "manual": [
+      {
+        "step": "确认自己是否有选举资格",
+        "description": "在投票前，您需要确认自己是否有资格在选举中投票。这意味着您必须是选举所在国家的公民，达到最低年龄要求并注册投票。请向当地选举委员会查询或访问其网站，以确认自己是否有资格，并在必要时注册投票。"
+      },
+      {
+        "step": "找到您的投票地点",
+        "description": "在选举日，您必须前往指定的投票地点投票。该位置可能与您通常的投票地点不同，因此请向当地选举委员会查询或访问其网站，以确定您需要投票的地点。"
+      },
+      {
+        "step": "携带身份证明",
+        "description": "根据管辖区，您可能需要在投票前出示有效的身份证明。请向当地选举委员会查询或访问其网站，以确定哪些身份证明是可接受的。"
+      },
+      {
+        "step": "与选举官员进行登记",
+        "description": "当您到达投票地点时，您需要与选举官员进行登记。他们将询问您的姓名，并可能要求您出示身份证明。然后，他们将给您一张选票或引导您使用投票机。"
+      },
+      {
+        "step": "投票",
+        "description": "拿起您的选票或使用投票机投票。根据选举类型，您可能会被要求在纸质选票上标记您的选择，或使用触摸屏幕进行选择。"
+      },
+      {
+        "step": "确认您的投票",
+        "description": "在提交您的选票之前，请仔细检查您的选择，以确保您已标记了正确的候选人或措施。在使用投票机时，在按下“提交选票”按钮之前，请仔细查看您的选择。"
+      },
+      {
+        "step": "提交您的选票",
+        "description": "一旦您确定已正确标记了您的选择，请将选票提交给选举官员。如果您使用纸质选票，请将其放在指定的选票箱中。如果您使用投票机，请按照说明提交您的选票。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "投票的资格标准是什么？",
+        "answer": "投票者应该是该国的公民且年满18岁。"
+      },
+      {
+        "question": "什么是委托？",
+        "answer": "委托是将任务或责任分配或委托给其他人或团体的行为。"
+      },
+      {
+        "question": "注册投票时是否需要身份证明？",
+        "answer": "必须出示带照片的身份证明或指示选民姓名和居住地址的文件。"
+      },
+      {
+        "question": "我该去哪里投票？如何找到我的投票站？",
+        "answer": "如果您仍需要获取您的县选民信息指南，该指南列出了您的投票站，请致电或访问您的县选举办公室网站，其中许多提供查找工具，允许选民查找投票地点。请访问州务卿的网站以查找投票站和投票中心。"
+      },
+      {
+        "question": "投票站和投票中心何时开放和关闭？",
+        "answer": "投票站在选举日上午7点开放，下午8点关闭。此外，在采用选民选择法的县中，投票中心在选举日前额外开放4到10天。"
+      }
+    ],
+    "help": "帮助",
+    "instructions_to_vote": "投票说明"
+  }
+}

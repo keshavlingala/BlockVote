@@ -22,5 +22,74 @@
   "this_field_is_required": "Ce champ est requis",
   "you_are_not_eligible_to_vote": "Vous n'êtes pas éligible pour voter",
   "id_verification": "Vérification d'identité",
-  "upcoming_campaigns": "Prochaines campagnes"
+  "upcoming_campaigns": "Prochaines campagnes",
+  "thank_you_for_voting": "Merci d'avoir voté",
+  "you_successfully_voted_in_this_campaign": "Vous avez voté avec succès dans cette campagne",
+  "results": "Résultats",
+  "winner": "Gagnant",
+  "total_votes": "Total des votes",
+  "share_campaign": "Partager la campagne",
+  "copy": "Copier",
+  "share_text": "Hé, avez-vous déjà voté dans cette campagne ? Si ce n'est pas le cas, vous pouvez voter maintenant ! Voici un lien pour voter.",
+  "copied_to_clipboard": "Copié dans le presse-papiers",
+  "campaign_name": "Nom de la campagne",
+  "cancel": "Annuler",
+  "create": "Créer",
+  "there_are_no_candidates_right_now_you_can_add_one": "Il n'y a pas de candidats pour le moment. Vous pouvez en ajouter un.",
+  "check_eligibility": "Vérifiez votre éligibilité",
+  "before_vote": "Avant de pouvoir voter, vous devez vous assurer que vous êtes éligible pour voter lors des élections. Cela signifie que vous devez être citoyen du pays où ont lieu les élections, remplir les conditions d'âge minimum et être inscrit pour voter. Vérifiez auprès de votre commission électorale locale ou visitez leur site Web pour vérifier votre éligibilité et vous inscrire pour voter si nécessaire.",
+  "find_polling_place": "Trouvez votre lieu de vote",
+  "polling_place_info": "Le jour des élections, vous devez vous rendre à votre lieu de vote désigné pour voter. Cet endroit peut différer de votre lieu de vote habituel, alors vérifiez auprès de votre commission électorale locale ou visitez leur site Web pour savoir où vous devez voter.",
+  "manual": [
+    {
+      "step": "Vérifiez votre éligibilité",
+      "description": "Avant de pouvoir voter, vous devez vous assurer que vous êtes éligible pour voter aux élections. Cela signifie que vous devez être citoyen du pays où se déroulent les élections, répondre aux exigences d'âge minimum et être inscrit sur les listes électorales. Vérifiez auprès de votre commission électorale locale ou visitez leur site Web pour vérifier votre éligibilité et vous inscrire si nécessaire."
+    },
+    {
+      "step": "Trouvez votre bureau de vote",
+      "description": "Le jour des élections, vous devez vous rendre à votre bureau de vote désigné pour voter. Cet endroit peut différer de votre bureau de vote habituel, alors vérifiez auprès de votre commission électorale locale ou visitez leur site Web pour savoir où vous devez voter."
+    },
+    {
+      "step": "Apportez une pièce d'identité",
+      "description": "Selon la juridiction, vous pouvez être tenu de présenter une pièce d'identité valide avant de pouvoir voter. Vérifiez auprès de votre commission électorale locale ou visitez leur site Web pour savoir quelles pièces d'identité sont acceptables."
+    },
+    {
+      "step": "Enregistrez-vous auprès des responsables des élections",
+      "description": "Lorsque vous arrivez au bureau de vote, vous devrez vous enregistrer auprès des responsables des élections. Ils vous demanderont votre nom et pourront vous demander de présenter une pièce d'identité. Ils vous donneront ensuite un bulletin de vote ou vous dirigeront vers une machine à voter."
+    },
+    {
+      "step": "Votez",
+      "description": "Prenez votre bulletin de vote ou utilisez la machine à voter pour voter. Selon le type d'élection, il se peut que l'on vous demande de marquer vos choix sur un bulletin de vote en papier ou d'utiliser un écran tactile pour faire vos sélections."
+    },
+    {
+      "step": "Vérifiez votre vote",
+      "description": "Avant de soumettre votre bulletin de vote, examinez attentivement vos choix pour vous assurer que vous avez marqué les bons candidats ou mesures. Revoyez vos sélections avant d'appuyer sur le bouton 'voter' en utilisant une machine à voter."
+    },
+    {
+      "step": "Soumettez votre bulletin de vote",
+      "description": "Une fois que vous êtes sûr d'avoir marqué vos choix correctement, soumettez votre bulletin de vote aux responsables des élections. Si vous utilisez un bulletin de vote en papier, placez-le dans la boîte de scrutin désignée. Si vous utilisez une machine à voter, suivez les instructions pour soumettre votre vote."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels sont les critères d'éligibilité pour voter?",
+      "answer": "Ils doivent être citoyens du pays et avoir plus de 18 ans."
+    },
+    {
+      "question": "Qu'est-ce que la délégation?",
+      "answer": "La délégation est l'acte d'assigner ou de confier une tâche ou une responsabilité à une autre personne ou groupe."
+    },
+    {
+      "question": "Une pièce d'identité est-elle requise pour s'inscrire pour voter?",
+      "answer": "Une pièce d'identité avec photo ou un document indiquant le nom et l'adresse de résidence de l'électeur doit être présenté."
+    },
+    {
+      "question": "Où dois-je aller pour voter? Comment trouver mon site de vote?",
+      "answer": "Si vous avez encore besoin du guide d'information de l'électeur de votre comté, qui indique votre site de vote, appelez ou visitez le site Web de votre bureau des élections de comté, dont beaucoup fournissent des outils de recherche permettant aux électeurs de trouver des lieux de vote. Visitez le site Web du secrétaire d'État pour trouver des bureaux de vote et des centres de vote."
+    },
+    {
+      "question": "À quelle heure les bureaux de vote et les centres de vote ouvrent-ils et ferment-ils?",
+      "answer": "Les bureaux de vote ouvrent à 7 heures du matin et ferment à 20 heures le jour des élections. De plus, les centres de vote dans les comtés qui ont adopté la loi sur le choix des électeurs sont ouverts 4 à 10 jours supplémentaires avant le jour des élections."
+    }
+  ]
 }

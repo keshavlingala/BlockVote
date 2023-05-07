@@ -36,7 +36,7 @@
       <mat-chip accessibility
                 *ngIf="!campaign.isActive" selected color="warn">{{language.language['inactive']}}</mat-chip>
       <mat-chip accessibility
-                *ngIf="campaign.isActive && campaign.hasCandidates" selected
+                *ngIf="campaign.hasCandidates" selected
                 color="accent">{{language.language['candidates']}}</mat-chip>
     </mat-chip-list>
     <div class="actions">

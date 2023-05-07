@@ -10,6 +10,7 @@ import {LanguageService} from "../../../language.service";
 import * as jsPDF from 'jspdf';
 import 'jspdf-autotable';
 import {IdVerificationModalComponent} from "../modals/id-verification-modal/id-verification-modal.component";
+import {ShareCampaignModalComponent} from "../modals/share-campaign-modal/share-campaign-modal.component";
 
 @Component({
   selector: 'voting-dapp-campaign-preview',
@@ -101,6 +102,7 @@ export class CampaignPreviewComponent {
       )
       .subscribe(() => {
         this._snackBar.open('Campaign successfully ended.', 'Ok');
+        location.reload()
       });
   }
 
@@ -119,5 +121,14 @@ export class CampaignPreviewComponent {
       body: data.slice(1),
     });
     doc.save(`${this.campaignModel.name}-Results-${new Date().toLocaleDateString()}.pdf`);
+  }
+
+  shareClicked() {
+    this._dialog.open(ShareCampaignModalComponent, {
+      width: '400px',
+      data: `${this.language.language['share_text']} \n http://localhost:4200/campaign/${this._activatedRoute.snapshot.paramMap.get('id')}`
+    }).afterClosed().subscribe(() => {
+      this._snackBar.open(this.language.language['copied_to_clipboard'], '');
+    });
   }
 }

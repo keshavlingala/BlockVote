@@ -1,3 +1,4 @@
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
@@ -42,6 +43,10 @@ module.exports = {
       network_id: '*',
       websocket: true,
     },
+    alchemy: {
+      provider: () => new HDWalletProvider("6f7a30d59b88c2320abcdcd8938e653e70074971e6b17cd02a10e5ccf0645f7d", "https://eth-sepolia.g.alchemy.com/v2/MYG3p213L_JsLjF7Tzn45XUmQKaGPWX9"),
+      network_id: 11155111
+    }
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
     // You should run a client (like ganache-cli, geth or parity) in a separate terminal

@@ -8,7 +8,10 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NgWeb3Module} from 'ng-web3';
 import {HttpClientModule} from "@angular/common/http";
 import {DatabaseService} from "./database.service";
-import { DbadminComponent } from './components/dbadmin/dbadmin.component';
+import {DbadminComponent} from './components/dbadmin/dbadmin.component';
+import {ManualComponent} from './components/manual/manual.component';
+import {ComponentsModule} from "./components/components.module";
+import {MatExpansionModule} from "@angular/material/expansion";
 
 const routes: Routes = [
   {
@@ -32,19 +35,25 @@ const routes: Routes = [
     component: DbadminComponent,
   },
   {
+    path: 'manual',
+    component: ManualComponent
+  },
+  {
     path: '**',
     redirectTo: '',
   },
 ];
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ManualComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(routes),
     NgWeb3Module.forRoot(),
     HttpClientModule,
+    ComponentsModule,
+    MatExpansionModule,
   ],
   providers: [
     HttpClientModule,

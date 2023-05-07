@@ -8,16 +8,16 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
       astTransformers: {
         before: [
-          'jest-preset-angular/build/InlineFilesTransformer',
-          'jest-preset-angular/build/StripStylesTransformer',
+          'jest-preset-angular/build_old/InlineFilesTransformer',
+          'jest-preset-angular/build_old/StripStylesTransformer',
         ],
       },
     },
   },
   coverageDirectory: '../../coverage/libs/ng-web3',
   snapshotSerializers: [
-    'jest-preset-angular/build/serializers/no-ng-attributes',
-    'jest-preset-angular/build/serializers/ng-snapshot',
-    'jest-preset-angular/build/serializers/html-comment',
+    'jest-preset-angular/build_old/serializers/no-ng-attributes',
+    'jest-preset-angular/build_old/serializers/ng-snapshot',
+    'jest-preset-angular/build_old/serializers/html-comment',
   ],
 };

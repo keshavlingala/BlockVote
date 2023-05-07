@@ -4,6 +4,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 10px;
+  align-items: center;
+  gap: 10px;
 
   .left {
     display: flex;

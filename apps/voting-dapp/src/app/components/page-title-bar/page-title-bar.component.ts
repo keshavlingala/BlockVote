@@ -41,4 +41,8 @@ export class PageTitleBarComponent {
   changeLanguage($event: MatSelectChange) {
     this.language.changeLanguage($event.value);
   }
+
+  getAccessibility() {
+    return (window as any).accessibilityMode;
+  }
 }

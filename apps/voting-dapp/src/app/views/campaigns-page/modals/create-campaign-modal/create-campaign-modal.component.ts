@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import {Component} from '@angular/core';
+import {FormControl, Validators} from '@angular/forms';
+import {LanguageService} from "../../../../language.service";
 
 @Component({
   selector: 'voting-dapp-create-campaign-dialog',
@@ -8,4 +9,9 @@ import { FormControl, Validators } from '@angular/forms';
 })
 export class CreateCampaignModalComponent {
   campaignName: FormControl = new FormControl('', Validators.required);
+
+  constructor(
+    public language: LanguageService
+  ) {
+  }
 }

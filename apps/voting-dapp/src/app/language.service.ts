@@ -5,32 +5,14 @@ import {HttpClient} from "@angular/common/http";
   providedIn: 'root'
 })
 export class LanguageService {
-  languages = {
-    en: {},
-    es: {},
-    fr: {},
-    hn: {},
-    cn: {},
-  }
+  languages = {};
   private currentLanguage: any = {};
   private code = 'en'
 
   constructor(private http: HttpClient) {
-    http.get('assets/en.json').subscribe((res) => {
-      this.languages.en = res;
-      this.currentLanguage = res;
-    })
-    http.get('assets/es.json').subscribe((res) => {
-      this.languages.es = res;
-    })
-    http.get('assets/fr.json').subscribe((res) => {
-      this.languages.fr = res;
-    })
-    http.get('assets/hn.json').subscribe((res) => {
-      this.languages.hn = res;
-    })
-    http.get('assets/cn.json').subscribe((res) => {
-      this.languages.cn = res;
+    http.get('assets/languages.json').subscribe((res) => {
+      this.languages = res;
+      this.currentLanguage = res[this.code];
     })
   }
 

@@ -11,11 +11,23 @@
     <span class="scrolling-text">CSUF President , CSUF Vice President , CSUF Treasurer , CSUF Student Body President</span>
     <span class="scrolling-text">CSUF President , CSUF Vice President , CSUF Treasurer , CSUF Student Body President</span>
   </div>
+  <div class="filter-wrapper">
+  <span>Filter</span>
+    <mat-chip-list>
+      <mat-chip color="primary" [selected]="currentFilter=='active'" (click)="applyFilter('active')">Active</mat-chip>
+      <mat-chip color="warn" [selected]="currentFilter=='inactive'" (click)="applyFilter('inactive')">InActive</mat-chip>
+      <mat-chip color="accent" [selected]="currentFilter=='candidates'" (click)="applyFilter('candidates')">Has Candidates</mat-chip>
+      <mat-chip color="accent" [selected]="currentFilter=='no-candidates'" (click)="applyFilter('no-candidates')">No Candidates</mat-chip>
+    </mat-chip-list>
+  </div>
   <div class="campaign-list__container">
     <voting-dapp-campaign-list-item
-      *ngFor="let campaign of campaignListItems"
+      *ngFor="let campaign of getFilteredItems"
       class="campaign-list__container__item"
       [campaign]="campaign">
     </voting-dapp-campaign-list-item>
+  </div>
+  <div *ngIf="campaignListItems.length==0">
+    <h1>{{language.language['there_are_no_candidates_right_now_you_can_add_one']}}</h1>
   </div>
 </div>
