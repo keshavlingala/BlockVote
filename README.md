@@ -2,23 +2,11 @@
 **Secure and Transparent Elections: Implementing a Blockchain-Based Voting System**
 
 ## Introduction
-This is a Final project done as part of the course CPSC 559 - Advanced Blockchain Technologies
-
+Simple Blockchain application using Web 3.0 and metamask
 [![Block-Vote](https://img.shields.io/badge/github-BlockVote-blue.svg)](https://github.com/keshavlingala/BlockVote)
 
 Project Repository Link [here](https://github.com/keshavlingala/BlockVote)
 
-> Professor: Dr. Wenlin Han <br>
-> Department of Computer Science <br>
-> California State University, Fullerton <br>
-> Spring 2023 <br>
-
-## Team Members ( Team Token )
-
-- Keshav Lingala (885187559) ( keshavlingala@csu.fullerton.edu )
-- Priya Keshri ( 885191452 ) ( priyakeshri@csu.fullerton.edu )
-- Sri Vaishnavi Rudravallambi ( 885237289 ) ( srivaishnavi@csu.fullerton.edu )
-- Saurabh Kudeti ( 885332130 ) ( kudeti1999@csu.fullerton.edu )
 
 ## Project Description
 
